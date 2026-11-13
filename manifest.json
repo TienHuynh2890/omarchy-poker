@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dartc.poker",
+  "name": "Poker",
+  "version": "1.0.0",
+  "author": "dartc",
+  "license": "MIT",
+  "description": "Floating Texas Hold'em (heads-up vs AI) panel: table, cards, new hand, player info, and actions.",
+  "homepage": "https://github.com/TienHuynh2890/omarchy-poker",
+  "repository": "https://github.com/TienHuynh2890/omarchy-poker",
+  "keywords": ["poker", "texas", "holdem", "cards", "game"],
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Poker",
+    "description": "Texas Hold'em heads-up vs AI in a floating panel",
+    "category": "Games",
+    "aliases": ["holdem", "texas-holdem"],
+    "allowMultiple": false,
+    "defaultSection": "centerEnd"
+  }
+}

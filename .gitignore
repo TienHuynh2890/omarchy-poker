@@ -1,0 +1,7 @@
+# Runtime data (kept in ~/.local/state/dartc.poker in current builds)
+scores.json
+
+# Editor / OS cruft
+*.bak
+*.swp
+.DS_Store
