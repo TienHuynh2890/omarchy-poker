@@ -4,6 +4,8 @@ Widget poker **Texas Hold'em heads-up vs AI** cho thanh trạng thái [Omarchy](
 
 https://github.com/TienHuynh2890/omarchy-poker
 
+📖 **Hướng dẫn chi tiết** (cài đặt, phím tắt, luật roulette, xử lý sự cố): [HUONG-DAN.md](HUONG-DAN.md)
+
 ## Tính năng
 
 - Texas Hold'em heads-up: blinds 10/20, mỗi bên khởi đầu 1.000 chip.
@@ -120,5 +122,7 @@ Or clone manually into `~/.config/omarchy/plugins/dartc.poker` and run `omarchy 
 **Data:** `~/.local/state/dartc.poker/state.json` and `scores.json`. The plugin folder stays clean, so git updates never conflict.
 
 **Requirements:** Omarchy with `schemaVersion: 1` shell plugins. No build step.
+
+**Detailed guide (Vietnamese):** [HUONG-DAN.md](HUONG-DAN.md)
 
 **License:** MIT.
